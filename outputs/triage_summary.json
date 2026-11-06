@@ -1,0 +1,17 @@
+{
+  "tickets": 164,
+  "evaluated_nonempty_tickets": 160,
+  "accuracy": 1.0,
+  "category_counts": {
+    "delivery": 43,
+    "fraud": 39,
+    "billing": 39,
+    "technical": 39,
+    "unknown": 4
+  },
+  "redacted_tickets": 146,
+  "fallbacks": 21,
+  "empty_tickets": 4,
+  "budget_truncated_tickets": 4,
+  "total_tokens": 12812
+}

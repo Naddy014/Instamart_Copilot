@@ -1,0 +1,43 @@
+{
+  "scenario_id": "S3",
+  "user_message": "Order ORD-100145 arrived far too late, please refund me.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "Order ORD-100145 arrived far too late, please refund me."
+    },
+    {
+      "role": "tool",
+      "name": "get_order",
+      "content": "{\"order_id\": \"ORD-100145\", \"customer_id\": \"C0016\", \"product_id\": \"P038\", \"status\": \"completed\", \"order_amount\": 1999.0, \"delivery_minutes\": 54.0}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"If a completed order is delivered in 45 minutes or less, no late-delivery refund is paid.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "calculate_refund",
+      "content": "{\"refund_inr\": 1999.0}"
+    },
+    {
+      "role": "tool",
+      "name": "escalate_to_human",
+      "content": "{\"order_id\": \"ORD-100145\", \"refund_inr\": 1999.0, \"status\": \"human_approval_required\"}"
+    }
+  ],
+  "tools_executed": [
+    "get_order",
+    "search_policy",
+    "calculate_refund",
+    "escalate_to_human"
+  ],
+  "steps": 4,
+  "final": "ESCALATE: refund above INR 1000 sent to a human lead.",
+  "customer_id": "C0016"
+}

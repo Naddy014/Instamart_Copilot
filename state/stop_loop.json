@@ -1,0 +1,55 @@
+{
+  "scenario_id": "stop_loop",
+  "user_message": "[LOOP] Refund order ORD-100001 please.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "[LOOP] Refund order ORD-100001 please."
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"Refund Policy.\"}"
+    }
+  ],
+  "tools_executed": [
+    "search_policy",
+    "search_policy",
+    "search_policy",
+    "search_policy",
+    "search_policy",
+    "search_policy"
+  ],
+  "steps": 6,
+  "final": "FALLBACK: safe handoff after reaching the tool-step limit.",
+  "customer_id": ""
+}

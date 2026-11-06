@@ -1,0 +1,37 @@
+{
+  "scenario_id": "S4",
+  "user_message": "Please refund order ORD-100001, I did not like the delivery.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "Please refund order ORD-100001, I did not like the delivery."
+    },
+    {
+      "role": "tool",
+      "name": "get_order",
+      "content": "{\"order_id\": \"ORD-100001\", \"customer_id\": \"C0001\", \"product_id\": \"P001\", \"status\": \"completed\", \"order_amount\": 109.65, \"delivery_minutes\": 20.0}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"If a completed order is delivered in 45 minutes or less, no late-delivery refund is paid.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "calculate_refund",
+      "content": "{\"refund_inr\": 0.0}"
+    }
+  ],
+  "tools_executed": [
+    "get_order",
+    "search_policy",
+    "calculate_refund"
+  ],
+  "steps": 3,
+  "final": "DENIED: delivery was within 45 minutes.",
+  "customer_id": "C0001"
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "S6",
+  "user_message": "Refund for order ORD-999999 please.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "Refund for order ORD-999999 please."
+    },
+    {
+      "role": "tool",
+      "name": "get_order",
+      "content": "{\"error\": \"order_not_found\", \"order_id\": \"ORD-999999\"}"
+    }
+  ],
+  "tools_executed": [
+    "get_order"
+  ],
+  "steps": 1,
+  "final": "NOT_FOUND: no such order.",
+  "customer_id": "C0001"
+}

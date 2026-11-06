@@ -1,0 +1,18 @@
+{
+  "scenario_id": "stop_missing_order",
+  "user_message": "Can I get a refund?",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "Can I get a refund?"
+    }
+  ],
+  "tools_executed": [],
+  "steps": 0,
+  "final": "NEEDS_INFO: please share the order id.",
+  "customer_id": ""
+}

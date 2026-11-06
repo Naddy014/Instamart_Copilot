@@ -1,0 +1,165 @@
+ticket_id,customer_id,category,reason,priority,route,customer_segment,pii_redacted,email_redactions,phone_redactions,classification_source,token_usage,true_category
+T0024,C0486,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0073,C0080,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0095,C1087,technical,keyword match,Normal,Technical Support,Frequent,False,0,0,model,64,technical
+T0159,C1172,unknown,empty ticket,Low,Priority Support,Premium,False,0,0,empty,0,none
+T0080,C0910,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0124,C0139,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0061,C0812,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0118,C0355,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0037,C1156,billing,keyword match,High,Priority Support,Premium,True,1,0,model,62,billing
+T0002,C0881,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0163,C0322,delivery,keyword match,High,Priority Support,Premium,False,0,0,model,775,delivery
+T0031,C0958,technical,keyword match,Normal,Technical Support,Frequent,False,0,0,model,64,technical
+T0047,C0756,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0063,C0892,technical,deterministic fallback after invalid model response,Normal,Technical Support,Frequent,True,0,1,fallback,57,technical
+T0121,C0852,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,62,billing
+T0139,C0829,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0115,C1025,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0123,C0674,technical,deterministic fallback after invalid model response,High,Priority Support,Premium,True,0,1,fallback,53,technical
+T0116,C0294,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0136,C0891,fraud,keyword match,High,Security Team,Frequent,True,1,0,model,60,fraud
+T0008,C1177,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0102,C0985,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0072,C0218,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0101,C1151,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0059,C0764,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0049,C0078,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0153,C0150,billing,deterministic fallback after invalid model response,Normal,Billing Team,Frequent,True,1,0,fallback,62,billing
+T0050,C0117,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0147,C0125,technical,keyword match,High,Priority Support,Premium,False,0,0,model,64,technical
+T0074,C1119,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,60,delivery
+T0156,C0328,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0145,C0751,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0053,C0447,billing,keyword match,High,Priority Support,Premium,True,1,0,model,62,billing
+T0134,C0608,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0039,C0298,technical,deterministic fallback after invalid model response,High,Priority Support,Premium,True,1,0,fallback,69,technical
+T0016,C0962,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0055,C1063,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0130,C0692,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0099,C1000,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0062,C0403,delivery,deterministic fallback after invalid model response,High,Priority Support,Premium,True,0,1,fallback,64,delivery
+T0013,C0507,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,62,billing
+T0137,C0978,billing,keyword match,Normal,Billing Team,Frequent,True,0,1,model,62,billing
+T0152,C0530,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0144,C0521,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0094,C0863,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0021,C0909,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0077,C0082,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0036,C0173,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0113,C0077,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,58,billing
+T0060,C0784,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0043,C0942,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0048,C0733,fraud,deterministic fallback after invalid model response,High,Security Team,Premium,True,1,0,fallback,60,fraud
+T0154,C1071,delivery,deterministic fallback after invalid model response,Normal,Delivery Operations,Frequent,True,0,1,fallback,68,delivery
+T0125,C1156,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0146,C1024,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0107,C0783,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0011,C0233,technical,keyword match,Normal,Technical Support,Frequent,True,1,0,model,69,technical
+T0017,C0028,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0111,C1033,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0041,C0464,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,62,billing
+T0120,C0208,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0122,C0404,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0001,C0851,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,62,billing
+T0064,C0848,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0092,C0585,fraud,keyword match,High,Security Team,Premium,True,1,0,model,60,fraud
+T0038,C0882,delivery,deterministic fallback after invalid model response,Normal,Delivery Operations,Frequent,True,0,1,fallback,64,delivery
+T0155,C0285,technical,keyword match,Normal,Technical Support,Frequent,True,1,0,model,69,technical
+T0104,C0815,fraud,keyword match,High,Security Team,Premium,True,1,0,model,60,fraud
+T0012,C0335,fraud,deterministic fallback after invalid model response,High,Security Team,Frequent,True,0,1,fallback,66,fraud
+T0084,C0569,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0051,C1049,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0143,C0339,technical,keyword match,Normal,Technical Support,Frequent,True,1,0,model,69,technical
+T0035,C1175,technical,keyword match,High,Priority Support,Premium,False,0,0,model,64,technical
+T0028,C1036,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0100,C0754,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0022,C1160,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0082,C0168,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,60,delivery
+T0127,C0976,technical,keyword match,Normal,Technical Support,Frequent,False,0,0,model,64,technical
+T0162,C0665,delivery,deterministic fallback after invalid model response,High,Priority Support,Premium,False,0,0,fallback,779,delivery
+T0109,C1080,billing,keyword match,High,Priority Support,Premium,True,1,0,model,62,billing
+T0046,C0442,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,64,delivery
+T0081,C0559,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0007,C0682,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0068,C0208,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0085,C0031,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0075,C0901,technical,deterministic fallback after invalid model response,High,Priority Support,Premium,True,1,0,fallback,69,technical
+T0052,C1005,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0066,C1199,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,64,delivery
+T0151,C1011,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0131,C0069,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0006,C0177,delivery,keyword match,Normal,Delivery Operations,Frequent,True,1,0,model,61,delivery
+T0135,C0303,technical,deterministic fallback after invalid model response,High,Priority Support,Premium,False,0,0,fallback,68,technical
+T0079,C1128,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0040,C0256,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0093,C0131,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0089,C0860,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0034,C1188,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0033,C0714,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0160,C0670,unknown,empty ticket,Low,Priority Support,Premium,False,0,0,empty,0,none
+T0087,C0797,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0009,C0758,billing,keyword match,High,Priority Support,Premium,True,1,0,model,62,billing
+T0108,C0340,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0054,C0571,delivery,keyword match,Normal,Delivery Operations,Frequent,True,1,0,model,61,delivery
+T0025,C0610,billing,deterministic fallback after invalid model response,Normal,Billing Team,Frequent,True,0,1,fallback,62,billing
+T0004,C0721,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0148,C1057,fraud,deterministic fallback after invalid model response,High,Security Team,Premium,True,0,1,fallback,70,fraud
+T0088,C0852,fraud,keyword match,High,Security Team,Frequent,True,1,0,model,60,fraud
+T0030,C0015,delivery,keyword match,Normal,Delivery Operations,Frequent,True,1,0,model,61,delivery
+T0067,C0704,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0029,C0885,billing,keyword match,Normal,Billing Team,Frequent,True,0,1,model,62,billing
+T0129,C0237,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,62,billing
+T0105,C0063,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0045,C0628,billing,keyword match,Normal,Billing Team,Frequent,True,0,1,model,62,billing
+T0069,C0491,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0010,C1190,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0023,C0400,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0106,C0197,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0015,C0488,technical,keyword match,High,Priority Support,Premium,False,0,0,model,64,technical
+T0091,C0796,technical,deterministic fallback after invalid model response,Normal,Technical Support,Frequent,True,1,0,fallback,73,technical
+T0126,C0996,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,60,delivery
+T0096,C0324,fraud,deterministic fallback after invalid model response,High,Security Team,Premium,True,0,1,fallback,66,fraud
+T0149,C0770,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0070,C1150,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0026,C0677,delivery,keyword match,Normal,Delivery Operations,Frequent,True,1,0,model,61,delivery
+T0097,C0932,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,58,billing
+T0132,C0282,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0027,C0232,technical,keyword match,High,Priority Support,Premium,False,0,0,model,64,technical
+T0119,C0629,technical,keyword match,High,Priority Support,Premium,False,0,0,model,64,technical
+T0157,C1107,unknown,empty ticket,Low,Priority Support,Premium,False,0,0,empty,0,none
+T0058,C0287,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0110,C0056,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0018,C1135,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0032,C1139,fraud,deterministic fallback after invalid model response,High,Security Team,Premium,True,0,1,fallback,70,fraud
+T0003,C0591,technical,keyword match,High,Priority Support,Premium,True,0,1,model,53,technical
+T0042,C0508,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,60,delivery
+T0056,C0140,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0114,C0619,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0083,C0356,technical,keyword match,Normal,Technical Support,Frequent,True,0,1,model,53,technical
+T0138,C0720,delivery,deterministic fallback after invalid model response,Normal,Delivery Operations,Frequent,True,1,0,fallback,61,delivery
+T0057,C1199,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0076,C0418,fraud,keyword match,High,Security Team,Frequent,True,0,1,model,66,fraud
+T0019,C0579,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0103,C0499,technical,keyword match,Normal,Technical Support,Frequent,False,0,0,model,64,technical
+T0164,C0794,delivery,keyword match,Normal,Delivery Operations,Frequent,False,0,0,model,775,delivery
+T0090,C0322,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,64,delivery
+T0112,C0432,fraud,deterministic fallback after invalid model response,High,Security Team,Premium,True,0,1,fallback,70,fraud
+T0133,C0717,billing,keyword match,High,Priority Support,Premium,True,1,0,model,58,billing
+T0014,C0579,delivery,keyword match,High,Priority Support,Premium,True,1,0,model,61,delivery
+T0158,C1106,unknown,empty ticket,Low,General Support,Frequent,False,0,0,empty,0,none
+T0020,C0460,fraud,keyword match,High,Security Team,Premium,True,0,1,model,66,fraud
+T0142,C0605,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,64,delivery
+T0086,C1132,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0141,C0376,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,58,billing
+T0044,C0862,fraud,keyword match,High,Security Team,Premium,True,1,0,model,60,fraud
+T0117,C0465,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,58,billing
+T0078,C0586,delivery,keyword match,Normal,Delivery Operations,Frequent,True,0,1,model,60,delivery
+T0140,C1173,fraud,deterministic fallback after invalid model response,High,Security Team,Frequent,True,0,1,fallback,66,fraud
+T0071,C0966,technical,keyword match,High,Priority Support,Premium,True,1,0,model,69,technical
+T0161,C0202,delivery,keyword match,High,Priority Support,Premium,False,0,0,model,775,delivery
+T0150,C0622,delivery,deterministic fallback after invalid model response,Normal,Delivery Operations,Frequent,True,0,1,fallback,64,delivery
+T0065,C0205,billing,keyword match,High,Priority Support,Premium,True,0,1,model,62,billing
+T0128,C0467,fraud,keyword match,High,Security Team,Frequent,True,1,0,model,60,fraud
+T0005,C0404,billing,keyword match,Normal,Billing Team,Frequent,True,1,0,model,58,billing
+T0098,C0343,delivery,keyword match,High,Priority Support,Premium,True,0,1,model,60,delivery

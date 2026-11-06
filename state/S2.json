@@ -1,0 +1,43 @@
+{
+  "scenario_id": "S2",
+  "user_message": "My order ORD-100067 reached me very late. I would like a refund.",
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Check a refund request using get_order, search_policy, calculate_refund, issue_refund, and escalate_to_human tools. Never invent order data."
+    },
+    {
+      "role": "user",
+      "content": "My order ORD-100067 reached me very late. I would like a refund."
+    },
+    {
+      "role": "tool",
+      "name": "get_order",
+      "content": "{\"order_id\": \"ORD-100067\", \"customer_id\": \"C0008\", \"product_id\": \"P020\", \"status\": \"completed\", \"order_amount\": 135.0, \"delivery_minutes\": 59.0}"
+    },
+    {
+      "role": "tool",
+      "name": "search_policy",
+      "content": "{\"sources\": [\"refund_policy.txt\"], \"policy_excerpt\": \"If a completed order is delivered in 45 minutes or less, no late-delivery refund is paid.\"}"
+    },
+    {
+      "role": "tool",
+      "name": "calculate_refund",
+      "content": "{\"refund_inr\": 135.0}"
+    },
+    {
+      "role": "tool",
+      "name": "issue_refund",
+      "content": "{\"refund_inr\": 135.0, \"status\": \"simulated_approval\"}"
+    }
+  ],
+  "tools_executed": [
+    "get_order",
+    "search_policy",
+    "calculate_refund",
+    "issue_refund"
+  ],
+  "steps": 4,
+  "final": "REFUND: INR 135.0 issued.",
+  "customer_id": "C0008"
+}

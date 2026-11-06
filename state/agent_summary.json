@@ -1,0 +1,33 @@
+{
+  "scenarios": 7,
+  "passed": 7,
+  "crash_resume_tools": [
+    "get_order",
+    "search_policy",
+    "calculate_refund",
+    "issue_refund"
+  ],
+  "safe_stops": [
+    {
+      "demo": "stop_missing_order",
+      "outcome": "NEEDS_INFO",
+      "steps": 0,
+      "tools_executed": [],
+      "response": "NEEDS_INFO: please share the order id."
+    },
+    {
+      "demo": "stop_loop",
+      "outcome": "FALLBACK",
+      "steps": 6,
+      "tools_executed": [
+        "search_policy",
+        "search_policy",
+        "search_policy",
+        "search_policy",
+        "search_policy",
+        "search_policy"
+      ],
+      "response": "FALLBACK: safe handoff after reaching the tool-step limit."
+    }
+  ]
+}

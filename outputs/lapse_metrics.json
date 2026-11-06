@@ -1,0 +1,8 @@
+{
+  "test_size": 300,
+  "accuracy": 0.7266666666666667,
+  "f1": 0.7071428571428572,
+  "roc_auc": 0.7741347905282332,
+  "label": "no completed order during September 2025",
+  "training_cutoff": "2025-08-31T23:59:59"
+}
